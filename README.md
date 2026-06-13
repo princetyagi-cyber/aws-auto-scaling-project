@@ -64,9 +64,9 @@ Configure dynamic scaling policy.
 
 ---
 
-## Step 7 - Verify Auto Scaling Configuration
+## Step 7 - Test Auto Scaling Functionality
 
-Verify Auto Scaling Group configuration.
+Increase CPU utilization and verify that Auto Scaling automatically launches additional EC2 instances based on the scaling policy.
 
 ![Output](screenshots/asg-output.png)
 
@@ -74,4 +74,4 @@ Verify Auto Scaling Group configuration.
 
 # Final Result
 
-Successfully configured AWS Auto Scaling with Application Load Balancer.
+Successfully configured AWS Auto Scaling with Application Load Balancer and verified automatic instance scaling based on CPU utilization.
